@@ -6,6 +6,7 @@ import (
 )
 
 // MiniMaxSum prints the minimum and maximum values that can be calculated by summing exactly four of the five integers
+// URL: https://www.hackerrank.com/challenges/mini-max-sum/problem
 func MiniMaxSum(arr []int32) {
 	total := 0
 	min := math.MaxInt64
